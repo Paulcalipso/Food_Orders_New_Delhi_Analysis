@@ -7,11 +7,19 @@
 - DATA SOURCE
 - DESCRIPTION OF DATA
 - DATA PREPROCESSING
+  * DIRTY DATASET OVERVIEW
+  * DATA CLEANING STEPS
+  * CLEANED DATASET OVERVIEW
 - EXPLORATORY DATA ANALYSIS (EDA)
+  * PROFITAILITY EVALUATION
+  * STRATEGIC RECOMMENDATIONS FOR IMPROVEMENT
+  * IMPACT SIMULATION OF PROPOSED STRATEGIES
 - DATA VISUALIZATION
-- INSIGHTS
-- RECOMMENDATIONS
-- EXPECTED OUTCOMES
+  * KPI DASHBOARD SETUP
+  * PIVOT SHEET VISUALIZATION FOR INTERACTIVE DASHBOARD
+  * PIVOT CHARTS AND KPI REPRESENTATION
+  * DASHBOARD VISUALIZATION
+- CONCLUSION
 
 # NEW DELHI FOOD DELIVERY SERVICE DATA ANALYSIS - OVERVIEW
 Food delivery has become an essential part of daily life in cities like New Delhi, where convenience and quick service are highly valued. However, despite growing demand, not all delivery businesses manage to stay profitable. This project focuses on a New Delhi-based food delivery service that has completed around 1,000 orders but is currently operating at a loss.
@@ -46,6 +54,10 @@ This dataset contains columns such as:
 - REFUNDS/CHARGEBACKS: The amount refunded or reversed due to customer complaints, order issues, or disputes
 
 # DATA PREPROCESSING
+## DIRTY DATASET OVERVIEW
+![new del table](https://github.com/user-attachments/assets/abaf4d29-d4a4-4bff-84d3-5cd3422ff639)
+
+## DATA CLEANING STEPS
 To ensure the dataset was accurate and ready for analysis, the following data cleaning steps were carried out:
 - Unmerging Columns - Used the Text to Columns function to separate combined data in key fields:
   * Discount and Orders were unmerged to create two distinct columns.
@@ -57,6 +69,9 @@ To ensure the dataset was accurate and ready for analysis, the following data cl
   * Ensured there were no duplicate records by checking for repeated entries, especially in the Order ID and Timestamp columns.
 - Formatting Dates
   * Standardized the Date column to ensure all entries followed a uniform format (e.g., DD-MM-YYYY), enabling accurate time-based analysis
+
+## CLEANED DATASET OVERVIEW
+![nd clean](https://github.com/user-attachments/assets/0c0041c0-a256-447e-b8b2-766647732d5f)
 
 # EXPLORATORY DATA ANALYSIS (EDA)
 The first objective of this project was to carry out a detailed total cost analysis, which was accomplished through exploratory data analysis (EDA). This involved examining key financial metrics, revenue streams, and associated costs to understand the current financial position of the business. Below is a summary of the findings:
@@ -74,7 +89,7 @@ The first objective of this project was to carry out a detailed total cost analy
 **Insights:** Through EDA, it was discovered that commissions are the main sources of revenue, while significant costs are being incurred through discounts, delivery cost, payment processing fees, and refunds. This imbalance between revenue and cost is a major contributor to the current financial losses.
 This analysis fulfills the first goal of the project, to understand and break down the total cost structure of the business using the available data
 
-# PROFITAILITY EVALUATION
+## PROFITAILITY EVALUATION
 Following the total cost analysis conducted through exploratory data analysis (EDA), a profitability evaluation was performed to assess the financial performance of the food delivery business.
 - Summary of Financials:
   * Total Revenue: ₹126,990.00
@@ -93,7 +108,7 @@ The key cost drivers contributing to this loss include:
 
 Despite completing 1,000 orders, the revenue generated is not nearly enough to cover operating expenses. Immediate cost-cutting measures and strategic revenue improvements are essential for moving toward profitability.
 
-# STRATEGIC RECOMMENDATIONS FOR IMPROVEMENT
+## STRATEGIC RECOMMENDATIONS FOR IMPROVEMENT
 To address the significant losses identified through profitability evaluation, the following targeted strategies are recommended to improve revenue, reduce unnecessary costs, and strengthen operational efficiency. 
 1. Increase Commission Rate to 20%
    - Current Situation: Revenue from commissions is not sufficient to cover overall operational costs.
@@ -112,7 +127,7 @@ To address the significant losses identified through profitability evaluation, t
      * Penalize repeated misuse of the refund system by users and enforce quality checks with vendors.
      * Offer partial credits or in-app wallet refunds instead of cash reimbursements where possible.
 
-# IMPACT SIMULATION OF PROPOSED STRATEGIES
+## IMPACT SIMULATION OF PROPOSED STRATEGIES
 To evaluate the potential effect of the recommended strategies, a simulation was conducted using revised assumptions and updated financial projections. The goal was to estimate the new financial standing of the business after implementing key changes, including increasing commission rates, eliminating high-discount orders, and enforcing stricter refund policies.
 
 | Metric                             | Value           |
@@ -129,7 +144,8 @@ To evaluate the potential effect of the recommended strategies, a simulation was
 - Reduced Discounts: Eliminating 201 high-discount orders (worth ₹110,018) significantly lowered overall discount costs.
 - Positive Profit Margin: The business shifted from a –105.54% loss margin to a 20.09% profit margin, indicating the company is now very profitable.
 
-# KPI DASHBOARD SETUP
+# DATA VISUALIZATION
+## KPI DASHBOARD SETUP
 To effectively monitor and present key performance indicators (KPIs), interactive pivot tables were created using the cleaned dataset. These pivot tables provide a dynamic overview of essential business metrics and allow for real-time filtering and analysis through slicers.
 **KPIs Tracked:**
 - Number of Orders
@@ -138,7 +154,7 @@ To effectively monitor and present key performance indicators (KPIs), interactiv
 - Total Profit
 Each KPI was visualized using pivot tables that are fully interactive, enabling users to filter and analyze the data across various dimensions (e.g., date, location, order type) using slicers. This setup allows for quick insights and decision-making by making the data more accessible and adaptable to different business scenarios.
 
-# PIVOT SHEET VISUALIZATION FOR INTERACTIVE DASHBOARD
+## PIVOT SHEET VISUALIZATION FOR INTERACTIVE DASHBOARD
 To enhance data interpretation and provide an intuitive overview of the business performance, pivot tables were used to create meaningful visuals as part of an interactive dashboard. These visualizations allow for quick analysis and decision-making, supported by slicers for dynamic filtering.
 **Visuals Created:**
 1. Bar Chart – Total Cost Breakdown
@@ -166,3 +182,17 @@ It provides a clear picture of where most of the expenses are incurred.
 
 All visuals are interactive and connected to slicers, enabling users to filter by parameters such as order type, date, or discount category for deeper insight.
 
+## PIVOT CHARTS AND KPI REPRESENTATION
+![p1](https://github.com/user-attachments/assets/db8b310c-3642-470c-b933-f5998e7b28de)
+![p2](https://github.com/user-attachments/assets/c1835a24-a3c3-4857-852c-0f699e743ed3)
+![kpi](https://github.com/user-attachments/assets/0b7f34ed-ead9-4395-a7d3-3a51d339f112)
+
+
+## DASHBOARD VISUALIZATION
+![visualization dashboard 2](https://github.com/user-attachments/assets/8be056ca-9734-401b-8ef0-ef2e500e3146)
+
+# CONCLUSION
+This project provided a comprehensive analysis of the operational and financial performance of a New Delhi-based food delivery service. Through detailed data cleaning, exploratory analysis, and strategic evaluation, we identified the key drivers of the business's current losses including excessive discounts, high refund rates, and insufficient revenue from commissions.
+By simulating the impact of targeted improvement strategies such as increasing commission rates, eliminating unsustainable discounts, and implementing stricter refund policies, the business showed a promising shift from a –105.54% loss margin to a positive profit margin of 20.09%.
+Interactive dashboards and pivot visualizations were developed to monitor key performance indicators (KPIs) such as total orders, revenue, cost, and profit. These tools offer real-time insights and support data-driven decision-making
+With the recommended changes, the company is now positioned to transition from a loss-making operation to a scalable, sustainable, and highly profitable business. Continued monitoring and optimization will be crucial in maintaining this growth trajectory and staying competitive in the fast-paced food delivery market.
