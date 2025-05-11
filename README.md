@@ -115,7 +115,17 @@ To address the significant losses identified through profitability evaluation, t
 # IMPACT SIMULATION OF PROPOSED STRATEGIES
 To evaluate the potential effect of the recommended strategies, a simulation was conducted using revised assumptions and updated financial projections. The goal was to estimate the new financial standing of the business after implementing key changes, including increasing commission rates, eliminating high-discount orders, and enforcing stricter refund policies.
 
+| Metric                             | Value           |
+|------------------------------------|-----------------|
+| New Total Orders                   | 799             |
+| New Revenue (Commission @ 20%)     | ₹166,786.60     |
+| Discount Cost (50% Reduction)      | ₹64,239.00      |
+| Total Cost                         | ₹133,282.85     |
+| Net Profit                         | ₹33,503.75      |
+| Profit Margin                      | 20.09%          |
+
 **Key Improvements:**
 - Increased Commission Revenue: By raising the commission rate to 20%, revenue rose from ₹126,990 to ₹166,786.60.
 - Reduced Discounts: Eliminating 201 high-discount orders (worth ₹110,018) significantly lowered overall discount costs.
 - Positive Profit Margin: The business shifted from a –105.54% loss margin to a 20.09% profit margin, indicating the company is now very profitable.
+
