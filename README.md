@@ -129,3 +129,40 @@ To evaluate the potential effect of the recommended strategies, a simulation was
 - Reduced Discounts: Eliminating 201 high-discount orders (worth ₹110,018) significantly lowered overall discount costs.
 - Positive Profit Margin: The business shifted from a –105.54% loss margin to a 20.09% profit margin, indicating the company is now very profitable.
 
+# KPI DASHBOARD SETUP
+To effectively monitor and present key performance indicators (KPIs), interactive pivot tables were created using the cleaned dataset. These pivot tables provide a dynamic overview of essential business metrics and allow for real-time filtering and analysis through slicers.
+**KPIs Tracked:**
+- Number of Orders
+- Total Revenue
+- Total Cost
+- Total Profit
+Each KPI was visualized using pivot tables that are fully interactive, enabling users to filter and analyze the data across various dimensions (e.g., date, location, order type) using slicers. This setup allows for quick insights and decision-making by making the data more accessible and adaptable to different business scenarios.
+
+# PIVOT SHEET VISUALIZATION FOR INTERACTIVE DASHBOARD
+To enhance data interpretation and provide an intuitive overview of the business performance, pivot tables were used to create meaningful visuals as part of an interactive dashboard. These visualizations allow for quick analysis and decision-making, supported by slicers for dynamic filtering.
+**Visuals Created:**
+1. Bar Chart – Total Cost Breakdown
+This chart visualizes the original total cost distribution across key categories:
+* Discounts
+* Delivery
+* Payment Processing
+* Refunds
+
+It provides a clear picture of where most of the expenses are incurred.
+
+2. Line Chart – Profitability Curve
+- A line chart was used to show the trend of total revenue, total cost, and total profit.
+- This visualization helps track financial performance over time and highlights periods of loss or improvement.
+3. Bar Chart – Proposed Total Cost Breakdown
+- This chart represents the newly proposed total costs after implementing strategic recommendations.
+- It compares cost reductions in areas such as:
+  * Discounts
+  * Delivery expenses
+  * Payment processing fees
+  * Refund-related costs
+4. Line Chart – Proposed Profitability Curve
+- A second line chart was created to show the updated trend of total revenue, total cost, and total profit after the proposed changes.
+- This visual clearly demonstrates the shift from losses to profitability.
+
+All visuals are interactive and connected to slicers, enabling users to filter by parameters such as order type, date, or discount category for deeper insight.
+
